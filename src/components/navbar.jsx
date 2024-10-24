@@ -21,7 +21,7 @@ function Navbar() {
 
                 <nav className={`absolute ${hamburger ? 'translate-0' : 'translate-x-full'} hidden md:flex px-5 py-10 flex-col md:flex-row md:items-center md:gap-8 transition-transform duration-300 hidden max-sm:flex ease-in-out max-[500px]:w-[80%] flex w-[50%] h-[100vh] shadow-[0px_0px_20px_#00000033] px-[20px] py-[40px] flex-col gap-[56px] top-[-20px] right-[-40px]`}>
                 <img src={close} onClick={() => setHamburger(!hamburger)} className="w-[40px]" alt="" />
-                    <ul className="flex flex-col gap-[12px] text-black">
+                    <ul className="flex flex-col gap-[12px] text-black font-Jura">
                         <li>About Us</li>
                         <li>Services</li>
                         <li>Aircraft Guide</li>

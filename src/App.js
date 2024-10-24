@@ -12,7 +12,7 @@ function App() {
     
     <div>
      <Navbar/>
-     <Hero />
+     <Hero /> 
      <Welcome />
      <Project />
      <Flying />

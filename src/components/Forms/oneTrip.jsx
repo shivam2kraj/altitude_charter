@@ -51,27 +51,27 @@ function OneTrip() {
                 <div className="flex gap-[20px]">
                     <div className="flex flex-col">
                         <div className="flex justify-between">
-                            <label htmlFor="" className={firstNameValid ? "text-white" : "text-[red]"}>Full Name </label>
-                            {firstNameValid === false && <span className="text-[red]">required*</span>}
+                            <label htmlFor="" className={firstNameValid ? "text-white font-Jura" : "text-[red] font-Jura"}>Full Name </label>
+                            {firstNameValid === false && <span className="text-[red] font-Jura">required*</span>}
                         </div>
                         <input
                             name="FirstName"
                             type="text"
                             onChange={HandleChange}
                             placeholder="Enter Your Full Name"
-                            className={firstNameValid ? "border-[1px] w-[230px] mt-[6px] border-black pl-[12px] py-[7px] rounded-[7px]" : "border-[1px] w-[230px] mt-[6px] border-[red] placeholder:text-[red] pl-[12px] py-[7px] rounded-[7px]"} />
+                            className={firstNameValid ? "border-[1px] w-[230px] font-Jura mt-[6px] border-black pl-[12px] py-[7px] rounded-[7px]" : "border-[1px] w-[230px] mt-[6px] border-[red] font-Jura placeholder:text-[red] pl-[12px] py-[7px] rounded-[7px]"} />
                     </div>
                     <div className="flex flex-col">
                         <div className="flex justify-between">
-                            <label htmlFor="" className={emailValid ? "text-white" : "text-[red]"}>Email ID </label>
-                            {emailValid === false && <span className="text-[red]">required*</span>}
+                            <label htmlFor="" className={emailValid ? "text-white font-Jura" : "text-[red] font-Jura"}>Email ID </label>
+                            {emailValid === false && <span className="text-[red] font-Jura">required*</span>}
                         </div>
                         <input
                             name="Email"
                             type="text"
                             onChange={HandleChange}
                             placeholder="Enter Your Email Id"
-                            className={emailValid ? "border-[1px] w-[230px] mt-[6px] border-black pl-[12px] py-[7px] rounded-[7px]" : "border-[1px] w-[230px] mt-[6px] border-[red] placeholder:text-[red] pl-[12px] py-[7px] rounded-[7px]"} />
+                            className={emailValid ? "border-[1px] w-[230px] mt-[6px] border-black pl-[12px] py-[7px] font-Jura rounded-[7px]" : "border-[1px] w-[230px] mt-[6px] border-[red] font-Jura placeholder:text-[red] pl-[12px] py-[7px] rounded-[7px]"} />
                     </div>
 
                 </div>
@@ -79,25 +79,25 @@ function OneTrip() {
                 <div className="flex gap-[20px]">
                     <div className="flex flex-col">
                         <div className="flex justify-between">
-                            <label htmlFor="" className="text-white">Company Name </label>
+                            <label htmlFor="" className="text-white font-Jura">Company Name </label>
                         </div>
                         <input
                             name="CompanyName"
                             type="text"
                             onChange={HandleChange}
                             placeholder="Enter Your Company Name"
-                            className="border-[1px] mt-[6px] w-[230px] border-black pl-[12px] py-[7px] rounded-[7px]" />
+                            className="border-[1px] mt-[6px] w-[230px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
                     </div>
                     <div className="flex flex-col">
                         <div className="flex justify-between">
-                            <label htmlFor="" className="text-white">Phone Number </label>
+                            <label htmlFor="" className="text-white font-Jura">Phone Number </label>
                         </div>
                         <input
                             name="PhoneNumber"
                             type="number"
                             onChange={HandleChange}
                             placeholder="Enter Your Phone Number"
-                            className="border-[1px] mt-[6px] w-[230px] border-black pl-[12px] py-[7px] rounded-[7px]" />
+                            className="border-[1px] mt-[6px] w-[230px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
                     </div>
 
                 </div>
@@ -105,25 +105,25 @@ function OneTrip() {
                 <div className="flex gap-[20px]">
                     <div className="flex flex-col">
                         <div className="flex justify-between">
-                            <label htmlFor="" className="text-white">Departure Airpot </label>
+                            <label htmlFor="" className="text-white font-Jura">Departure Airpot </label>
                         </div>
                         <input
                             name="Departure"
                             type="text"
                             onChange={HandleChange}
                             placeholder="Enter Your Departure Airpot"
-                            className="border-[1px] mt-[6px] w-[230px] border-black pl-[12px] py-[7px] rounded-[7px]" />
+                            className="border-[1px] mt-[6px] w-[230px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
                     </div>
                     <div className="flex flex-col">
                         <div className="flex justify-between">
-                            <label htmlFor="" className="text-white">Arrival Airpot</label>
+                            <label htmlFor="" className="text-white font-Jura">Arrival Airpot</label>
                         </div>
                         <input
                             name="Arrival"
                             type="text"
                             onChange={HandleChange}
                             placeholder="Enter Your Arrival"
-                            className="border-[1px] mt-[6px] w-[230px] border-black pl-[12px] py-[7px] rounded-[7px]" />
+                            className="border-[1px] mt-[6px] w-[230px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
                     </div>
 
                 </div>
@@ -131,7 +131,7 @@ function OneTrip() {
                 <div className="flex gap-[20px]">
                     <div className="flex flex-col">
                         <div className="flex justify-between">
-                            <label htmlFor="" className="text-white">Departure Date </label>
+                            <label htmlFor="" className="text-white font-Jura">Departure Date </label>
                         </div>
                         <input
                             name="DepartureDate"
@@ -142,7 +142,7 @@ function OneTrip() {
                     </div>
                     <div className="flex flex-col">
                         <div className="flex justify-between">
-                            <label htmlFor="" className="text-white">Time </label>
+                            <label htmlFor="" className="text-white font-Jura">Time </label>
                         </div>
                         <input
                             name="Time"
@@ -157,32 +157,32 @@ function OneTrip() {
                 <div className="flex gap-[20px]">
                     <div className="flex flex-col">
                         <div className="flex justify-between">
-                            <label htmlFor="" className="text-white">Passengers </label>
+                            <label htmlFor="" className="text-white font-Jura">Passengers </label>
                         </div>
                         <input
                             name="Passengers"
                             type="number"
                             onChange={HandleChange}
                             placeholder="Enter Your Passengers"
-                            className="border-[1px] mt-[6px] w-[230px] border-black pl-[12px] py-[7px] rounded-[7px]" />
+                            className="border-[1px] mt-[6px] w-[230px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
                     </div>
                     <div className="flex flex-col">
                         <div className="flex justify-between">
-                            <label htmlFor="" className="text-white">Plane Type </label>
+                            <label htmlFor="" className="text-white font-Jura">Plane Type </label>
                         </div>
                         <input
                             name="PlaneType"
                             type="text"
                             onChange={HandleChange}
                             placeholder="Enter Your Plane Type"
-                            className="border-[1px] mt-[6px] w-[230px] border-black pl-[12px] py-[7px] rounded-[7px]" />
+                            className="border-[1px] mt-[6px] w-[230px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
                     </div>
 
                 </div>
 
                 <button
                     onClick={HandleSubmit}
-                    className="border-white border-[1px] w-[480px] hover:bg-[gold] hover:text-white transition-all duration-300 py-[12px] px-[35px] text-white rounded-[5px]">Book Your Flight
+                    className="border-white border-[1px] w-[480px] hover:bg-[gold] font-Jura hover:text-white transition-all duration-300 py-[12px] px-[35px] text-white rounded-[5px]">Book Your Flight
                 </button>
 
             </form>
