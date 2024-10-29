@@ -23,7 +23,7 @@ function Hero() {
       </div>
       </div>
     
-      <div className="z-[5] relative fixed">
+      <div className="z-[5] relative block">
         <TabComponent />
       </div>
     </main>

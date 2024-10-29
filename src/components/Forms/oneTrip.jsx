@@ -47,7 +47,7 @@ function OneTrip() {
     return (
         <section>
 
-            <form className="w-[550px] shadow-[0px_0px_10px_#ffffff] transition-all duration-300 hover:shadow-[0px_0px_30px_#ffffff] flex flex-col gap-[15px] bg-black px-[25px] py-[24px] rounded-[13px]" action="">
+            <form className="w-[467px] shadow-[0px_0px_10px_#ffffff] transition-all duration-300 hover:shadow-[0px_0px_30px_#ffffff] flex flex-col gap-[15px] bg-black px-[25px] py-[24px] rounded-[13px]" action="">
                 <div className="flex gap-[20px]">
                     <div className="flex flex-col">
                         <div className="flex justify-between">
@@ -58,8 +58,8 @@ function OneTrip() {
                             name="FirstName"
                             type="text"
                             onChange={HandleChange}
-                            placeholder="Enter Your Full Name"
-                            className={firstNameValid ? "border-[1px] w-[230px] font-Jura mt-[6px] border-black pl-[12px] py-[7px] rounded-[7px]" : "border-[1px] w-[230px] mt-[6px] border-[red] font-Jura placeholder:text-[red] pl-[12px] py-[7px] rounded-[7px]"} />
+                            placeholder="Full Name"
+                            className={firstNameValid ? "border-[1px] w-[188px] font-Jura mt-[6px] border-black pl-[12px] py-[7px] rounded-[7px]" : "border-[1px] w-[188px] mt-[6px] border-[red] font-Jura placeholder:text-[red] pl-[12px] py-[7px] rounded-[7px]"} />
                     </div>
                     <div className="flex flex-col">
                         <div className="flex justify-between">
@@ -70,8 +70,8 @@ function OneTrip() {
                             name="Email"
                             type="text"
                             onChange={HandleChange}
-                            placeholder="Enter Your Email Id"
-                            className={emailValid ? "border-[1px] w-[230px] mt-[6px] border-black pl-[12px] py-[7px] font-Jura rounded-[7px]" : "border-[1px] w-[230px] mt-[6px] border-[red] font-Jura placeholder:text-[red] pl-[12px] py-[7px] rounded-[7px]"} />
+                            placeholder="dubai@gmail.com"
+                            className={emailValid ? "border-[1px] w-[188px] mt-[6px] border-black pl-[12px] py-[7px] font-Jura rounded-[7px]" : "border-[1px] w-[188px] mt-[6px] border-[red] font-Jura placeholder:text-[red] pl-[12px] py-[7px] rounded-[7px]"} />
                     </div>
 
                 </div>
@@ -85,8 +85,8 @@ function OneTrip() {
                             name="CompanyName"
                             type="text"
                             onChange={HandleChange}
-                            placeholder="Enter Your Company Name"
-                            className="border-[1px] mt-[6px] w-[230px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
+                            placeholder="Weavenn"
+                            className="border-[1px] mt-[6px] w-[188px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
                     </div>
                     <div className="flex flex-col">
                         <div className="flex justify-between">
@@ -96,8 +96,8 @@ function OneTrip() {
                             name="PhoneNumber"
                             type="number"
                             onChange={HandleChange}
-                            placeholder="Enter Your Phone Number"
-                            className="border-[1px] mt-[6px] w-[230px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
+                            placeholder="556 880 5569"
+                            className="border-[1px] mt-[6px] w-[188px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
                     </div>
 
                 </div>
@@ -111,8 +111,8 @@ function OneTrip() {
                             name="Departure"
                             type="text"
                             onChange={HandleChange}
-                            placeholder="Enter Your Departure Airpot"
-                            className="border-[1px] mt-[6px] w-[230px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
+                            placeholder="New York Airport"
+                            className="border-[1px] mt-[6px] w-[188px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
                     </div>
                     <div className="flex flex-col">
                         <div className="flex justify-between">
@@ -122,8 +122,8 @@ function OneTrip() {
                             name="Arrival"
                             type="text"
                             onChange={HandleChange}
-                            placeholder="Enter Your Arrival"
-                            className="border-[1px] mt-[6px] w-[230px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
+                            placeholder="Dubai UAE Airport"
+                            className="border-[1px] mt-[6px] w-[188px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
                     </div>
 
                 </div>
@@ -137,8 +137,8 @@ function OneTrip() {
                             name="DepartureDate"
                             type="date"
                             onChange={HandleChange}
-                            placeholder="Enter Your Departure Date"
-                            className="border-[1px] mt-[6px] w-[230px] border-black pl-[12px] py-[7px] rounded-[7px]" />
+                            placeholder="12/08/2024"
+                            className="border-[1px] mt-[6px] w-[188px] border-black pl-[12px] py-[7px] rounded-[7px]" />
                     </div>
                     <div className="flex flex-col">
                         <div className="flex justify-between">
@@ -148,8 +148,8 @@ function OneTrip() {
                             name="Time"
                             type="time"
                             onChange={HandleChange}
-                            placeholder="Enter Your Time"
-                            className="border-[1px] mt-[6px] w-[230px] border-black pl-[12px] py-[7px] rounded-[7px]" />
+                            placeholder="10 : 30 AM"
+                            className="border-[1px] mt-[6px] w-[188px] border-black pl-[12px] py-[7px] rounded-[7px]" />
                     </div>
 
                 </div>
@@ -163,8 +163,8 @@ function OneTrip() {
                             name="Passengers"
                             type="number"
                             onChange={HandleChange}
-                            placeholder="Enter Your Passengers"
-                            className="border-[1px] mt-[6px] w-[230px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
+                            placeholder="03"
+                            className="border-[1px] mt-[6px] w-[188px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
                     </div>
                     <div className="flex flex-col">
                         <div className="flex justify-between">
@@ -174,15 +174,15 @@ function OneTrip() {
                             name="PlaneType"
                             type="text"
                             onChange={HandleChange}
-                            placeholder="Enter Your Plane Type"
-                            className="border-[1px] mt-[6px] w-[230px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
+                            placeholder="Turbo prop"
+                            className="border-[1px] mt-[6px] w-[188px] font-Jura border-black pl-[12px] py-[7px] rounded-[7px]" />
                     </div>
 
                 </div>
 
                 <button
                     onClick={HandleSubmit}
-                    className="border-white border-[1px] w-[480px] hover:bg-[gold] font-Jura hover:text-white transition-all duration-300 py-[12px] px-[35px] text-white rounded-[5px]">Book Your Flight
+                    className="border-white border-[1px] w-[400px] hover:bg-[gold] font-Jura hover:text-white transition-all duration-300 py-[12px] px-[35px] text-white rounded-[5px]">Book Your Flight
                 </button>
 
             </form>
